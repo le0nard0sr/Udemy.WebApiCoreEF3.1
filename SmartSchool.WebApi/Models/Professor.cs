@@ -5,13 +5,10 @@ namespace SmartSchool.WebApi.Models
     public class Professor
     {
         public Professor() { }
-        public Professor(int id, string nome, string sobrenome, string telefone)
+        public Professor(int id, string nome)
         {
             this.Id = id;
             this.Nome = nome;
-            this.Sobrenome = sobrenome;
-            this.Telefone = telefone;
-
         }
         public int Id { get; set; }
         public string Nome { get; set; }
